@@ -1,0 +1,231 @@
+html,
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 1060px;
+}
+
+.address {
+    text-align: left;
+    font-size: 13px;
+    margin: 0;
+    margin-left: 130px;
+    margin-top: 20px;
+    color: darkslategrey;
+}
+
+.heading {
+    color: #BD9C58;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    letter-spacing: 5px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.nav {
+    box-sizing: border-box;
+    width: 1060px;
+    font-family: Arial;
+    font-size: 15px;
+    border-top: 1px solid lightgray;
+    padding: 70px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.nav tr td {
+    width: 20%;
+}
+
+.nav a{  
+    color: #605E5E;
+}
+
+#hhome {
+    color: #BD9C58;
+}
+
+.first-bg {
+    background-image: url("http://cs-server.usc.edu:45678/hw/hw3/images/image6.jpg");
+    height: 580px;
+    width: 1060px;
+    background-position: -330px 40px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 1730px;
+}
+
+.main {
+    box-sizing: border-box;
+    margin: auto;
+    padding-top: 20px;
+    width: 80%;
+}
+
+.lefta {
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.righta {
+    box-sizing: border-box;
+    padding-left: 20px;
+    text-align: left;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.second-bg {
+    background-image: url("http://cs-server.usc.edu:45678/hw/hw3/images/image5.jpg");
+    height: 450px;
+    width: 1060px;
+    background-attachment: fixed;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 1060px;
+    opacity: 0.77;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#aleft {
+    padding-top: 50px;
+    width: 320px;
+}
+
+#aright {
+    padding-top: 20px;
+    padding-bottom: 80px;
+    width: 320px;
+}
+
+.article2 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.article h2 {
+    color: #BD9C58;
+    font-size: 32px;
+    font-family: Times, serif;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    width: 400px;
+}
+
+.article p {
+    color: darkslategray;
+    font-size: 15px;
+}
+
+.article h6 {
+    margin: 0;
+    padding: 0;
+    color: darkslategray;
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: 3px;
+}
+
+.article a {
+    transition: .3s;
+    font-size: 14px;
+}
+
+.article a:hover {
+    color: darkgray;
+}
+
+.article2 h2 {
+    font-size: 32px;
+    padding: 0;
+    margin: 0;
+    color: #BD9C58;
+    font-family: Times, serif;
+    font-style: italic;
+}
+
+.article2 h6 {
+    margin-bottom: 10px;
+    color: darkslategray;
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+#order {
+    width: 79.5%;
+    margin: auto;
+    text-align: center;
+}
+
+.ordercontainer {
+    position: relative;
+    text-align: center;
+}
+
+.orderonline {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: white;
+    width: 42%;
+    height: 21%;
+}
+
+.orderonline {
+    color: darkslategray;
+}
+
+.orderonline a {
+    margin: 0;
+    padding: 0;
+    font-family: Times, serif;
+    font-size: 30px;
+    transition: 0.3s;
+    color: #605E5E;
+}
+
+.orderonline h6 {
+    margin-top: 35px;
+    margin-bottom: 2px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    color: #605E5E;
+}
+
+.orderonline a:hover {
+    color: darkgray;
+}
+
+.footer {
+    padding-top: 50px;
+    padding-left: 700px;
+    margin: 0;
+    height: 200px;
+    background-color: #BD9C58;
+    color: white;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 700;
+}
